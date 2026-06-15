@@ -47,6 +47,28 @@ After checking the baseline, you will see the **"Action Complete"** message (hig
 
 ![Action Complete - Baseline](step02_action_complete_baseline_verified.png)
 
+#### View XC Console Performance Dashboard
+
+Open the **XC Console Performance Dashboard** in a separate browser tab to monitor DNS performance in real-time:
+
+1. Click on the **F5 Distributed Cloud Console** tab or open the Performance Dashboard URL.
+
+2. You will see the **Performance** dashboard showing:
+   - **DNS Queries (Total):** 9
+   - **Query Rate:** 0 qps (normal)
+   - **SERVFAIL Count:** 0 (healthy)
+   - **Successful Answers:** 1 (11% success)
+
+3. **DNS Query Rate Over Time** — Graph showing query rate over the last 15 minutes
+
+4. **Legacy BIND Health** — Shows **HEALTHY** status with green indicator (All systems operational)
+
+5. **Query Log** — Shows recent DNS queries with Time, Source, Zone, Rate, Total, and Status
+
+> **💡 Tip:** Keep this dashboard open throughout the lab to observe how DNS metrics change during the DDoS attack and mitigation phases.
+
+![XC Console Performance Dashboard](step02a_xc_console_performance_dashboard.png)
+
 ---
 
 ### Step 3: Explore Network Diagram

@@ -347,7 +347,7 @@ Click on the **"Hints & Context"** tab (highlighted in the red box) to understan
 
 Now we will configure F5 Distributed Cloud DNS to resolve the outage.
 
-1. Click on **"Add XC DNS Zone"** in the progress bar or **"Configure XC Console"** in the left navigation (highlighted in the red box). You will see the step-by-step guide to configure XC DNS.
+1. Click on **"Add XC DNS Zone"** in the progress bar (highlighted in the red box). You will see the step-by-step guide to configure XC DNS.
 
 ![Add XC DNS Zone](step29_add_dns_zone.png)
 
@@ -430,7 +430,7 @@ Click on the **"DIY Test"** tab (highlighted in the red box) to verify XC DNS co
 
 Now we need to delegate the DNS zone to XC DNS by updating the Nameserver records at the Registrar.
 
-1. Click on **"Update Registrar NS"** in the progress bar or **"Delegate to XC DNS"** in the left navigation (highlighted in the red box). You will see the scenario explaining the NS delegation. Click the **"Update NS at Registrar"** button (highlighted in the red box).
+1. Click on **"Update Registrar NS"** in the progress bar(highlighted in the red box). You will see the scenario explaining the NS delegation. Click the **"Update NS at Registrar"** button (highlighted in the red box).
 
 ![Update Registrar NS](step40.png)
 
