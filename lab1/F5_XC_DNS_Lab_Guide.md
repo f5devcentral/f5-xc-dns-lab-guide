@@ -196,6 +196,33 @@ The lab interface provides multiple **tabs** for additional information (highlig
 
 ---
 
+### Step 3a: Verify App Status via Browser (Optional)
+
+You can verify that the Acme Corp web application is running by opening it directly in your browser:
+
+1. In the **Action done!** results, you will see the URL **`http://app.lab.example.com`** (highlighted in the red box).
+
+2. **Right-click** on the URL and select **"Open link in new tab"** (highlighted in the red box) to open the application in a new browser tab.
+
+![Right-click Open Link](step15a_right_click_open_link.png)
+
+3. A new browser tab will open showing the **Acme Corp Enterprise Web Application** page. This confirms that:
+   - DNS resolution is working correctly
+   - The web application is accessible
+   - Legacy BIND (10.1.10.7) is serving DNS queries properly
+
+**Application Details:**
+- **App:** Acme Corp Enterprise Web Application
+- **FQDN:** app.lab.example.com
+- **Resolved via:** Legacy BIND DNS (10.1.10.7)
+- **HTTP Status:** 200 OK
+
+![Acme Corp App](step15b_acme_corp_app.png)
+
+> **💡 Tip:** Keep this tab open to monitor the application status throughout the lab. You'll see how DNS changes affect application accessibility.
+
+---
+
 ### Step 4: Explore Lab Interface Tabs
 
 The lab interface provides several tabs to help you understand the environment:
