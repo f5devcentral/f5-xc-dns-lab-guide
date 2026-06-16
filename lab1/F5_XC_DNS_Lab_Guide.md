@@ -441,6 +441,19 @@ Now we need to delegate the DNS zone to XC DNS by updating the Nameserver record
 
 ![Action Complete](step41_action_complete_ns_delegation.png)
 
+> **⚠️ Lab Environment vs Production:**
+> 
+> | Environment | NS Records |
+> |-------------|------------|
+> | **Lab (Simulated)** | `ns1.xcpop1.lab`, `ns2.xcpop2.lab` |
+> | **Production (Real)** | `ns1.f5clouddns.com`, `ns2.f5clouddns.com` |
+> 
+> The lab uses simulated nameservers (`ns1.xcpop1.lab`, `ns2.xcpop2.lab`) to represent the F5 XC DNS infrastructure. In a **real production environment**, you would configure your domain registrar to use F5's actual nameservers:
+> - **ns1.f5clouddns.com**
+> - **ns2.f5clouddns.com**
+> 
+> The workflow and concepts remain identical — only the nameserver hostnames differ.
+
 ---
 
 ### Step 11: Verify NS Delegation
